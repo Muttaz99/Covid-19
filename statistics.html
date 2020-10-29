@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <title>Covid-19</title>
+    </head>
+    <body>
+        <nav  id='homeHeader'>
+            <div>
+                <a href="index.html"><img src='coronavirus.svg' alt="corona" width="65" height="65"></a>
+            </div>
+            <div class="nav-textSize">
+                <a href='index.html'>home</a>
+                <a href='statistics.html'>statistics</a>
+                <a href='tips.html'>tips</a>
+                <a href='Mythbusters.html'>mythbusters</a>
+            </div>
+        </nav>
+        <h1 class="home-header-txt">Covid-19 live statistics</h1>
+        <main class=" statistics" style="margin-top:5%">
+            <div class="faces statistics alert alert-dark">
+                <img src='sad.svg' alt="sad" class="faces-size">
+                    <p class="statistics api-data" id="cases"></p>
+                    <p>Cases</p>
+            </div>
+            <div class="faces statistics alert alert-dark">
+                <img src='happy.png' alt="happy" class="faces-size">
+                <p class="statistics api-data" id="recovered"></p>
+                <p>Recovered</p>
+            </div>
+            <div class="faces statistics alert alert-dark">
+                <img src='dead.png' alt="dead" class="faces-size">
+                <p class="statistics api-data" id="deaths"></p>
+                <p>Deaths</p>
+            </div>
+        </main>
+    </body>
+</html>
